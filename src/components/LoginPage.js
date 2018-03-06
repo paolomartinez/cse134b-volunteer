@@ -1,10 +1,21 @@
 import React from 'react';
+import { PropTypes } from "react";
 import {Link} from 'react-router';
 import '../css/loginStyles.css';
 import '../css/animate.css';
 
 class LoginPage extends React.Component {
+/* 
+    static propTypes = {
+        registerMessage: PropTypes.string,
+      };
+*/
     render() {
+/*
+        const {
+            registerMessage,
+          } = this.props;
+*/
         return (
           <div className="App">
             <h1>Welcome</h1>
@@ -15,7 +26,7 @@ class LoginPage extends React.Component {
                         <input type="password" name="password" placeholder="password" />
                         <input type="text" name="email" placeholder="email address" />
                         <button>create</button>
-                        <p className="message">Already registered? <a href="#">Sign In</a></p>
+                        <p className="message">Already registered?<a href="#">Sign In</a></p>
                     </form>
                     <form className="login-form animated fadeIn">
                         <input type="text" name="username" placeholder="username" />

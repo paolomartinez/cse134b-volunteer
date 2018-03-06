@@ -1,0 +1,96 @@
+*
+            {
+                box-sizing:border-box;
+            }
+
+
+
+            #myTable
+            {
+                border-collapse: collapse;
+                width:100%;
+                border: 1px solid #ddd;
+                font-size:18px;
+            }
+
+            #myTable th, #myTable td
+            {
+                text-align:left;
+                padding:12px;
+            }
+
+            #myTable tr
+            {
+                border-bottom: 1px solid #ddd;
+            }
+
+            #myTable tr.header, #myTable tr:hover
+            {
+                background-color: #f1f1f1;
+            }
+
+
+            h2
+            {
+                background-color: rgb(92, 190, 11);
+                text-align: center
+            }
+            /*All a elements in div.links class*/
+            a
+            {
+               text-decoration: none;
+               font-size: 15px;
+               padding: 1px;
+               float: right;
+            }
+
+
+            body
+            {
+                background-color: white;
+
+            }
+
+            tr
+            {
+                background-color:rgb(92, 190, 11);
+            }
+
+            #profile_image
+            {
+                float: right;
+                width: 7%;
+                height: 7%;
+            }
+
+            .links
+            {
+                color: green;
+                float: right;
+            }
+
+            #dashboard_image
+            {
+                float: center;
+                width: 60%;
+                height: 60%;
+            }
+            .org_images
+            {
+                height: 20%;
+            }
+
+            #name_column
+            {
+                width:20%;
+            }
+
+            #width_column
+            {
+                width: 70%;
+            }
+
+            #area_code_column
+            {
+                width: 10%;
+            }

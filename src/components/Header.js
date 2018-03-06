@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import ReactDOM from "react-dom";
+import React from 'react';
 import LoginPage from './components/LoginPage';
 import Chat from './components/Chat';
 import Confirmation from './components/Confirmation';
@@ -8,16 +7,14 @@ import Dashboard from './components/Dashboard';
 import Crud from './components/Crud';
 import Profile from './components/Profile';
 import { Link } from 'react-router-dom';
-import Header from './Header';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-      	<Header />
-      </div>
-    );
-  }
-}
+const Header = () => (
+	<header>
+	<nav>
+      <ul>
+        </ul>
+	</nav>
+	</header>
+);
 
-export default App;
+export default Header;
